@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChatHistory">
+    <accountData>
+      <list>
+        <AccountData>
+          <accountId value="VXNlcjozMzg3Njc=" />
+          <chats>
+            <list>
+              <chat>
+                <internalId value="d15f447f-180a-41ef-9b37-911b5aee1639" />
+              </chat>
+              <chat>
+                <internalId value="8fecb784-d70b-4687-a920-b699a206c836" />
+                <messages>
+                  <list>
+                    <message>
+                      <speaker value="HUMAN" />
+                      <text value="Make program that searches trough path F:\osu!2\Songs and it's folders and deletes .jpg pictures in any folders and have print that gives progress on deleting and completion" />
+                    </message>
+                    <message>
+                      <speaker value="ASSISTANT" />
+                      <text value="&lt;html&gt;&lt;b&gt; Cody encountered an error when processing your message:&lt;/b&gt;&lt;br&gt;&lt;div marginwidth=10&quot; marginheight=&quot;10&quot;&gt;&amp;#9888;  org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request chat/new failed with message: No chat model found in server-provided config&lt;/div&gt;&lt;div&gt;If the problem persists, please &lt;a href=&quot;https://github.com/sourcegraph/jetbrains/issues/new?template=bug_report.yml&amp;labels=bug,team/jetbrains&amp;projects=sourcegraph/381&amp;title=bug%3A+java.util.concurrent.ExecutionException%3A+org.eclipse.lsp4j.jsonrpc.ResponseErrorException%3A+Request+chat%2Fnew+failed+with+messa...&amp;version=IDE+version%3A+%60%60%60PC-241.14494.241%60%60%60&amp;logs=Stacktrace%3A%0A%60%60%60text%0Ajava.util.concurrent.ExecutionException%3A+org.eclipse.lsp4j.jsonrpc.ResponseErrorException%3A+Request+chat%2Fnew+failed+with+message%3A+No+chat+model+found+in+server-provided+config%0D%0A%09at+java.base%2Fjava.util.concurrent.CompletableFuture.reportGet%28CompletableFuture.java%3A396%29%0D%0A%09at+java.base%2Fjava.util.concurrent.CompletableFuture.get%28CompletableFuture.java%3A2073%29%0D%0A%09at+com.sourcegraph.cody.chat.AgentChatSession.submitMessageToAgent%24lambda%241%28AgentChatSession.kt%3A109%29%0D%0A%09at+com.sourcegraph.cody.agent.CodyAgentService%24Companion%24withAgent%242%241%24task%241.invokeSuspend%28CodyAgentService.kt%3A185%29%0D%0A%09at+com.sourcegraph.cody.agent.CodyAgentService%24Companion%24withAgent%242%241%24task%241.invoke%28CodyAgentService.kt%29%0D%0A%09at+com.sourcegraph.cody.agent.CodyAgentService%24Companion%24withAgent%242%241%24task%241.invoke%28CodyAgentService.kt%29%0D%0A%09at+com.sourcegraph.cody.agent.CodyAgentService%24Companion.coWithAgent%28CodyAgentService.kt%3A241%29%0D%0A%09at+com.sourcegraph.cody.agent.CodyAgentService%24Companion%24withAgent%242%241.invokeSuspend%28CodyAgentService.kt%3A190%29%0D%0A%09at+kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith%28ContinuationImpl.kt%3A33%29%0D%0A%09at+kotlinx.coroutines.DispatchedTask.run%28DispatchedTask.kt%3A108%29%0D%0A%09at+kotlinx.coroutines.EventLoopImplBase.processNextEvent%28EventLoop.common.kt%3A280%29%0D%0A%09at+kotlinx.coroutines.BlockingCoroutine.joinBlocking%28Builders.kt%3A85%29%0D%0A%09at+kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking%28Builders.kt%3A59%29%0D%0A%09at+kotlinx.coroutines.BuildersKt.runBlocking%28Unknown+Source%29%0D%0A%09at+kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking%24default%28Builders.kt%3A38%29%0D%0A%09at+kotlinx.coroutines.BuildersKt.runBlocking%24default%28Unknown+Source%29%0D%0A%09at+com.sourcegraph.cody.agent.CodyAgentService%24Companion.withAgent%24lambda%242%28CodyAgentService.kt%3A182%29%0D%0A%09at+com.intellij.openapi.application.impl.RwLockHolder%24executeOnPooledThread%241.run%28RwLockHolder.kt%3A154%29%0D%0A%09at+java.base%2Fjava.util.concurrent.Executors%24RunnableAdapter.call%28Executors.java%3A539%29%0D%0A%09at+com.intellij.util.concurrency.ContextCallable.call%28ContextCallable.java%3A32%29%0D%0A%09at+java.base%2Fjava.util.concurrent.FutureTask.run%28FutureTask.java%3A264%29%0D%0A%09at+com.intellij.util.concurrency.ContextRunnable.run%28ContextRunnable.java%3A27%29%0D%0A%09at+java.base%2Fjava.util.concurrent.ThreadPoolExecutor.runWorker%28ThreadPoolExecutor.java%3A1136%29%0D%0A%09at+java.base%2Fjava.util.concurrent.ThreadPoolExecutor%24Worker.run%28ThreadPoolExecutor.java%3A635%29%0D%0A%09at+java.base%2Fjava.util.concurrent.Executors%24PrivilegedThreadFactory%241%241.run%28Executors.java%3A702%29%0D%0A%09at+java.base%2Fjava.util.concurrent.Executors%24PrivilegedThreadFactory%241%241.run%28Executors.java%3A699%29%0D%0A%09at+java.base%2Fjava.security.AccessController.doPrivileged%28AccessController.java%3A399%29%0D%0A%09at+java.base%2Fjava.util.concurrent.Executors%24PrivilegedThreadFactory%241.run%28Executors.java%3A699%29%0D%0A%09at+java.base%2Fjava.lang.Thread.run%28Thread.java%3A840%29%0D%0ACaused+by%3A+org.eclipse.lsp4j.jsonrpc.ResponseErrorException%3A+Request+chat%2Fnew+failed+with+message%3A+No+chat+model+found+in+server-provided+config%0D%0A%09at+org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse%28RemoteEndpoint.java%3A209%29%0D%0A%09at+org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume%28RemoteEndpoint.java%3A193%29%0D%0A%09at+org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage%28StreamMessageProducer.java%3A194%29%0D%0A%09at+org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen%28StreamMessageProducer.java%3A94%29%0D%0A%09at+org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run%28ConcurrentMessageProcessor.java%3A113%29%0D%0A%09at+java.base%2Fjava.util.concurrent.Executors%24RunnableAdapter.call%28Executors.java%3A539%29%0D%0A%09at+java.base%2Fjava.util.concurrent.FutureTask.run%28FutureTask.java%3A264%29%0D%0A%09at+java.base%2Fjava.util.concurrent.ThreadPoolExecutor.runWorker%28ThreadPoolExecutor.java%3A1136%29%0D%0A%09at+java.base%2Fjava.util.concurrent.ThreadPoolExecutor%24Worker.run%28ThreadPoolExecutor.java%3A635%29%0D%0A%09...+1+more%0D%0A%0A%60%60%60%0AAdditional+info%3A+%60%60%60org.eclipse.lsp4j.jsonrpc.ResponseErrorException%3A+Request+chat%2Fnew+failed+with+message%3A+No+chat+model+found+in+server-provided+config%60%60%60&quot;&gt;create a support ticket&lt;/a&gt;.&lt;/div&gt;&lt;/html&gt;" />
+                    </message>
+                  </list>
+                </messages>
+                <updatedAt value="2024-06-23T03:17:00.2648882" />
+              </chat>
+              <chat>
+                <internalId value="52c6679b-c11b-492c-a340-e2c9852abcc6" />
+                <messages>
+                  <list>
+                    <message>
+                      <speaker value="ASSISTANT" />
+                      <text value="&lt;html&gt;&lt;b&gt;&amp;#9888; Error performing this action&lt;/b&gt;&lt;br&gt;&lt;br&gt;Please retry sending your message. If you tried to run a command, try it again.&lt;br&gt;If the issue persists, please &lt;a href=&quot;https://github.com/sourcegraph/jetbrains/issues/new?template=bug_report.yml&amp;labels=bug,clients/jetbrains&amp;projects=sourcegraph/381&amp;title=bug%3A+java.util.concurrent.ExecutionException%3A+org.eclipse.lsp4j.jsonrpc.ResponseErrorException%3A+No+default+chat+model+found&amp;version=IDE+version%3A+%60%60%60PC-241.14494.241%60%60%60&amp;logs=Stacktrace%3A%0A%60%60%60text%0Ajava.util.concurrent.ExecutionException%3A+org.eclipse.lsp4j.jsonrpc.ResponseErrorException%3A+No+default+chat+model+found%0A%0AError%3A+No+default+chat+model+found%0A++++at+C%3A%5CUsers%5CAdministrator%5CAppData%5CRoaming%5CJetBrains%5CPyCharmCE2024.1%5Cplugins%5CSourcegraph%5Cagent%5Cindex.js%3A112496%3A19%0D%0A%09at+java.base%2Fjava.util.concurrent.CompletableFuture.reportGet%28CompletableFuture.java%3A396%29%0D%0A%09at+java.base%2Fjava.util.concurrent.CompletableFuture.get%28CompletableFuture.java%3A2073%29%0D%0A%09at+com.sourcegraph.cody.chat.AgentChatSession.submitMessageToAgent%24lambda%240%28AgentChatSession.kt%3A121%29%0D%0A%09at+com.sourcegraph.cody.agent.CodyAgentService%24Companion%24withAgent%242%241%24task%241.invokeSuspend%28CodyAgentService.kt%3A260%29%0D%0A%09at+com.sourcegraph.cody.agent.CodyAgentService%24Companion%24withAgent%242%241%24task%241.invoke%28CodyAgentService.kt%29%0D%0A%09at+com.sourcegraph.cody.agent.CodyAgentService%24Companion%24withAgent%242%241%24task%241.invoke%28CodyAgentService.kt%29%0D%0A%09at+com.sourcegraph.cody.agent.CodyAgentService%24Companion.coWithAgent%28CodyAgentService.kt%3A317%29%0D%0A%09at+com.sourcegraph.cody.agent.CodyAgentService%24Companion.access%24coWithAgent%28CodyAgentService.kt%3A227%29%0D%0A%09at+com.sourcegraph.cody.agent.CodyAgentService%24Companion%24withAgent%242%241.invokeSuspend%28CodyAgentService.kt%3A266%29%0D%0A%09at+kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith%28ContinuationImpl.kt%3A33%29%0D%0A%09at+kotlinx.coroutines.DispatchedTask.run%28DispatchedTask.kt%3A108%29%0D%0A%09at+kotlinx.coroutines.EventLoopImplBase.processNextEvent%28EventLoop.common.kt%3A280%29%0D%0A%09at+kotlinx.coroutines.BlockingCoroutine.joinBlocking%28Builders.kt%3A85%29%0D%0A%09at+kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking%28Builders.kt%3A59%29%0D%0A%09at+kotlinx.coroutines.BuildersKt.runBlocking%28Unknown+Source%29%0D%0A%09at+kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking%24default%28Builders.kt%3A38%29%0D%0A%09at+kotlinx.coroutines.BuildersKt.runBlocking%24default%28Unknown+Source%29%0D%0A%09at+com.sourcegraph.cody.agent.CodyAgentService%24Companion.withAgent%24lambda%242%28CodyAgentService.kt%3A257%29%0D%0A%09at+com.intellij.openapi.application.impl.RwLockHolder%24executeOnPooledThread%241.run%28RwLockHolder.kt%3A154%29%0D%0A%09at+java.base%2Fjava.util.concurrent.Executors%24RunnableAdapter.call%28Executors.java%3A539%29%0D%0A%09at+com.intellij.util.concurrency.ContextCallable.call%28ContextCallable.java%3A32%29%0D%0A%09at+java.base%2Fjava.util.concurrent.FutureTask.run%28FutureTask.java%3A264%29%0D%0A%09at+com.intellij.util.concurrency.ContextRunnable.run%28ContextRunnable.java%3A27%29%0D%0A%09at+java.base%2Fjava.util.concurrent.ThreadPoolExecutor.runWorker%28ThreadPoolExecutor.java%3A1136%29%0D%0A%09at+java.base%2Fjava.util.concurrent.ThreadPoolExecutor%24Worker.run%28ThreadPoolExecutor.java%3A635%29%0D%0A%09at+java.base%2Fjava.util.concurrent.Executors%24PrivilegedThreadFactory%241%241.run%28Executors.java%3A702%29%0D%0A%09at+java.base%2Fjava.util.concurrent.Executors%24PrivilegedThreadFactory%241%241.run%28Executors.java%3A699%29%0D%0A%09at+java.base%2Fjava.security.AccessController.doPrivileged%28AccessController.java%3A399%29%0D%0A%09at+java.base%2Fjava.util.concurrent.Executors%24PrivilegedThreadFactory%241.run%28Executors.java%3A699%29%0D%0A%09at+java.base%2Fjava.lang.Thread.run%28Thread.java%3A840%29%0D%0ACaused+by%3A+org.eclipse.lsp4j.jsonrpc.ResponseErrorException%3A+No+default+chat+model+found%0A%0AError%3A+No+default+chat+model+found%0A++++at+C%3A%5CUsers%5CAdministrator%5CAppData%5CRoaming%5CJetBrains%5CPyCharmCE2024.1%5Cplugins%5CSourcegraph%5Cagent%5Cindex.js%3A112496%3A19%0D%0A%09at+org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse%28RemoteEndpoint.java%3A209%29%0D%0A%09at+org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume%28RemoteEndpoint.java%3A193%29%0D%0A%09at+org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage%28StreamMessageProducer.java%3A194%29%0D%0A%09at+org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen%28StreamMessageProducer.java%3A94%29%0D%0A%09at+org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run%28ConcurrentMessageProcessor.java%3A113%29%0D%0A%09at+java.base%2Fjava.util.concurrent.Executors%24RunnableAdapter.call%28Executors.java%3A539%29%0D%0A%09at+java.base%2Fjava.util.concurrent.FutureTask.run%28FutureTask.java%3A264%29%0D%0A%09at+java.base%2Fjava.util.concurrent.ThreadPoolExecutor.runWorker%28ThreadPoolExecutor.java%3A1136%29%0D%0A%09at+java.base%2Fjava.util.concurrent.ThreadPoolExecutor%24Worker.run%28ThreadPoolExecutor.java%3A635%29%0D%0A%09...+1+more%0D%0A%0A%60%60%60%0AAdditional+info%3A%0A%60%60%60text%0Aorg.eclipse.lsp4j.jsonrpc.ResponseErrorException%3A+No+default+chat+model+found%0A%0AError%3A+No+default+chat+model+found%0A++++at+C%3A%5CUsers%5CAdministrator%5CAppData%5CRoaming%5CJetBrains%5CPyCharmCE2024.1%5Cplugins%5CSourcegraph%5Cagent%5Cindex.js%3A112496%3A19%0A%60%60%60&quot;&gt;create a support ticket&lt;/a&gt;.&lt;br&gt;&lt;br&gt;&lt;sub&gt;Error: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: No default chat model found&#10;&#10;Error: No default chat model found&#10;    at C:\Users\Administrator\AppData\Roaming\JetBrains\PyCharmCE2024.1\plugins\Sourcegraph\agent\index.js:112496:19&lt;/sub&gt;&lt;/html&gt;" />
+                    </message>
+                  </list>
+                </messages>
+                <updatedAt value="2024-06-23T03:21:26.1348091" />
+              </chat>
+              <chat>
+                <internalId value="f6616fda-c50f-4264-a5d5-24e96d2bc14b" />
+                <messages>
+                  <list>
+                    <message>
+                      <speaker value="ASSISTANT" />
+                      <text value="&lt;html&gt;&lt;b&gt;&amp;#9888; Error performing this action&lt;/b&gt;&lt;br&gt;&lt;br&gt;Please retry sending your message. If you tried to run a command, try it again.&lt;br&gt;If the issue persists, please &lt;a href=&quot;https://github.com/sourcegraph/jetbrains/issues/new?template=bug_report.yml&amp;labels=bug,clients/jetbrains&amp;projects=sourcegraph/381&amp;title=bug%3A+java.util.concurrent.ExecutionException%3A+org.eclipse.lsp4j.jsonrpc.ResponseErrorException%3A+No+default+chat+model+found&amp;version=IDE+version%3A+%60%60%60PC-241.14494.241%60%60%60&amp;logs=Stacktrace%3A%0A%60%60%60text%0Ajava.util.concurrent.ExecutionException%3A+org.eclipse.lsp4j.jsonrpc.ResponseErrorException%3A+No+default+chat+model+found%0A%0AError%3A+No+default+chat+model+found%0A++++at+C%3A%5CUsers%5CAdministrator%5CAppData%5CRoaming%5CJetBrains%5CPyCharmCE2024.1%5Cplugins%5CSourcegraph%5Cagent%5Cindex.js%3A112496%3A19%0A++++at+runNextTicks+%28node%3Ainternal%2Fprocess%2Ftask_queues%3A60%3A5%29%0A++++at+process.processImmediate+%28node%3Ainternal%2Ftimers%3A449%3A9%29%0A++++at+process.topLevelDomainCallback+%28node%3Adomain%3A160%3A15%29%0A++++at+process.callbackTrampoline+%28node%3Ainternal%2Fasync_hooks%3A128%3A24%29%0D%0A%09at+java.base%2Fjava.util.concurrent.CompletableFuture.reportGet%28CompletableFuture.java%3A396%29%0D%0A%09at+java.base%2Fjava.util.concurrent.CompletableFuture.get%28CompletableFuture.java%3A2073%29%0D%0A%09at+com.sourcegraph.cody.chat.AgentChatSession.submitMessageToAgent%24lambda%240%28AgentChatSession.kt%3A121%29%0D%0A%09at+com.sourcegraph.cody.agent.CodyAgentService%24Companion%24withAgent%242%241%24task%241.invokeSuspend%28CodyAgentService.kt%3A260%29%0D%0A%09at+com.sourcegraph.cody.agent.CodyAgentService%24Companion%24withAgent%242%241%24task%241.invoke%28CodyAgentService.kt%29%0D%0A%09at+com.sourcegraph.cody.agent.CodyAgentService%24Companion%24withAgent%242%241%24task%241.invoke%28CodyAgentService.kt%29%0D%0A%09at+com.sourcegraph.cody.agent.CodyAgentService%24Companion.coWithAgent%28CodyAgentService.kt%3A317%29%0D%0A%09at+com.sourcegraph.cody.agent.CodyAgentService%24Companion.access%24coWithAgent%28CodyAgentService.kt%3A227%29%0D%0A%09at+com.sourcegraph.cody.agent.CodyAgentService%24Companion%24withAgent%242%241.invokeSuspend%28CodyAgentService.kt%3A266%29%0D%0A%09at+kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith%28ContinuationImpl.kt%3A33%29%0D%0A%09at+kotlinx.coroutines.DispatchedTask.run%28DispatchedTask.kt%3A108%29%0D%0A%09at+kotlinx.coroutines.EventLoopImplBase.processNextEvent%28EventLoop.common.kt%3A280%29%0D%0A%09at+kotlinx.coroutines.BlockingCoroutine.joinBlocking%28Builders.kt%3A85%29%0D%0A%09at+kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking%28Builders.kt%3A59%29%0D%0A%09at+kotlinx.coroutines.BuildersKt.runBlocking%28Unknown+Source%29%0D%0A%09at+kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking%24default%28Builders.kt%3A38%29%0D%0A%09at+kotlinx.coroutines.BuildersKt.runBlocking%24default%28Unknown+Source%29%0D%0A%09at+com.sourcegraph.cody.agent.CodyAgentService%24Companion.withAgent%24lambda%242%28CodyAgentService.kt%3A257%29%0D%0A%09at+com.intellij.openapi.application.impl.RwLockHolder%24executeOnPooledThread%241.run%28RwLockHolder.kt%3A154%29%0D%0A%09at+java.base%2Fjava.util.concurrent.Executors%24RunnableAdapter.call%28Executors.java%3A539%29%0D%0A%09at+com.intellij.util.concurrency.ContextCallable.call%28ContextCallable.java%3A32%29%0D%0A%09at+java.base%2Fjava.util.concurrent.FutureTask.run%28FutureTask.java%3A264%29%0D%0A%09at+com.intellij.util.concurrency.ContextRunnable.run%28ContextRunnable.java%3A27%29%0D%0A%09at+java.base%2Fjava.util.concurrent.ThreadPoolExecutor.runWorker%28ThreadPoolExecutor.java%3A1136%29%0D%0A%09at+java.base%2Fjava.util.concurrent.ThreadPoolExecutor%24Worker.run%28ThreadPoolExecutor.java%3A635%29%0D%0A%09at+java.base%2Fjava.util.concurrent.Executors%24PrivilegedThreadFactory%241%241.run%28Executors.java%3A702%29%0D%0A%09at+java.base%2Fjava.util.concurrent.Executors%24PrivilegedThreadFactory%241%241.run%28Executors.java%3A699%29%0D%0A%09at+java.base%2Fjava.security.AccessController.doPrivileged%28AccessController.java%3A399%29%0D%0A%09at+java.base%2Fjava.util.concurrent.Executors%24PrivilegedThreadFactory%241.run%28Executors.java%3A699%29%0D%0A%09at+java.base%2Fjava.lang.Thread.run%28Thread.java%3A840%29%0D%0ACaused+by%3A+org.eclipse.lsp4j.jsonrpc.ResponseErrorException%3A+No+default+chat+model+found%0A%0AError%3A+No+default+chat+model+found%0A++++at+C%3A%5CUsers%5CAdministrator%5CAppData%5CRoaming%5CJetBrains%5CPyCharmCE2024.1%5Cplugins%5CSourcegraph%5Cagent%5Cindex.js%3A112496%3A19%0A++++at+runNextTicks+%28node%3Ainternal%2Fprocess%2Ftask_queues%3A60%3A5%29%0A++++at+process.processImmediate+%28node%3Ainternal%2Ftimers%3A449%3A9%29%0A++++at+process.topLevelDomainCallback+%28node%3Adomain%3A160%3A15%29%0A++++at+process.callbackTrampoline+%28node%3Ainternal%2Fasync_hooks%3A128%3A24%29%0D%0A%09at+org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse%28RemoteEndpoint.java%3A209%29%0D%0A%09at+org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume%28RemoteEndpoint.java%3A193%29%0D%0A%09at+org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage%28StreamMessageProducer.java%3A194%29%0D%0A%09at+org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen%28StreamMessageProducer.java%3A94%29%0D%0A%09at+org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run%28ConcurrentMessageProcessor.java%3A113%29%0D%0A%09at+java.base%2Fjava.util.concurrent.Executors%24RunnableAdapter.call%28Executors.java%3A539%29%0D%0A%09at+java.base%2Fjava.util.concurrent.FutureTask.run%28FutureTask.java%3A264%29%0D%0A%09at+java.base%2Fjava.util.concurrent.ThreadPoolExecutor.runWorker%28ThreadPoolExecutor.java%3A1136%29%0D%0A%09at+java.base%2Fjava.util.concurrent.ThreadPoolExecutor%24Worker.run%28ThreadPoolExecutor.java%3A635%29%0D%0A%09...+1+more%0D%0A%0A%60%60%60%0AAdditional+info%3A%0A%60%60%60text%0Aorg.eclipse.lsp4j.jsonrpc.ResponseErrorException%3A+No+default+chat+model+found%0A%0AError%3A+No+default+chat+model+found%0A++++at+C%3A%5CUsers%5CAdministrator%5CAppData%5CRoaming%5CJetBrains%5CPyCharmCE2024.1%5Cplugins%5CSourcegraph%5Cagent%5Cindex.js%3A112496%3A19%0A++++at+runNextTicks+%28node%3Ainternal%2Fprocess%2Ftask_queues%3A60%3A5%29%0A++++at+process.processImmediate+%28node%3Ainternal%2Ftimers%3A449%3A9%29%0A++++at+process.topLevelDomainCallback+%28node%3Adomain%3A160%3A15%29%0A++++at+process.callbackTrampoline+%28node%3Ainternal%2Fasync_hooks%3A128%3A24%29%0A%60%60%60&quot;&gt;create a support ticket&lt;/a&gt;.&lt;br&gt;&lt;br&gt;&lt;sub&gt;Error: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: No default chat model found&#10;&#10;Error: No default chat model found&#10;    at C:\Users\Administrator\AppData\Roaming\JetBrains\PyCharmCE2024.1\plugins\Sourcegraph\agent\index.js:112496:19&#10;    at runNextTicks (node:internal/process/task_queues:60:5)&#10;    at process.processImmediate (node:internal/timers:449:9)&#10;    at process.topLevelDomainCallback (node:domain:160:15)&#10;    at process.callbackTrampoline (node:internal/async_hooks:128:24)&lt;/sub&gt;&lt;/html&gt;" />
+                    </message>
+                  </list>
+                </messages>
+                <updatedAt value="2024-06-23T03:26:47.9473211" />
+              </chat>
+              <chat>
+                <internalId value="30793bd6-1bfb-4617-b726-79dfb1afa279" />
+                <llm>
+                  <llm>
+                    <model value="anthropic/claude-3-sonnet-20240229" />
+                    <provider value="Anthropic" />
+                    <title value="Claude 3 Sonnet" />
+                  </llm>
+                </llm>
+                <messages>
+                  <list>
+                    <message>
+                      <speaker value="HUMAN" />
+                      <text value="generate hello world" />
+                    </message>
+                    <message>
+                      <speaker value="ASSISTANT" />
+                      <text value="Sure, here's a &quot;Hello, World!&quot; program in different programming languages:&#10;&#10;**Python**&#10;```python&#10;print(&quot;Hello, World!&quot;)&#10;```&#10;&#10;**JavaScript**&#10;```javascript&#10;console.log(&quot;Hello, World!&quot;);&#10;```&#10;&#10;**Java**&#10;```java&#10;public class HelloWorld {&#10;    public static void main(String[] args) {&#10;        System.out.println(&quot;Hello, World!&quot;);&#10;    }&#10;}&#10;```&#10;&#10;**C++**&#10;```cpp&#10;#include &lt;iostream&gt;&#10;&#10;int main() {&#10;    std::cout &lt;&lt; &quot;Hello, World!&quot; &lt;&lt; std::endl;&#10;    return 0;&#10;}&#10;```&#10;&#10;**C#**&#10;```csharp&#10;using System;&#10;&#10;namespace HelloWorld&#10;{&#10;    class Program&#10;    {&#10;        static void Main(string[] args)&#10;        {&#10;            Console.WriteLine(&quot;Hello, World!&quot;);&#10;        }&#10;    }&#10;}&#10;```&#10;&#10;**Ruby**&#10;```ruby&#10;puts &quot;Hello, World!&quot;&#10;```&#10;&#10;**Go**&#10;```go&#10;package main&#10;&#10;import &quot;fmt&quot;&#10;&#10;func main() {&#10;    fmt.Println(&quot;Hello, World!&quot;)&#10;}&#10;```&#10;&#10;**PHP**&#10;```php&#10;&lt;?php&#10;    echo" />
+                    </message>
+                  </list>
+                </messages>
+                <updatedAt value="2024-06-23T03:32:05.6657937" />
+              </chat>
+              <chat>
+                <internalId value="08654a52-dd2d-4c01-8401-87abbf8395d4" />
+                <llm>
+                  <llm>
+                    <model value="anthropic/claude-3-sonnet-20240229" />
+                    <provider value="Anthropic" />
+                    <title value="Claude 3 Sonnet" />
+                  </llm>
+                </llm>
+                <messages>
+                  <list>
+                    <message>
+                      <speaker value="HUMAN" />
+                      <text value="hello cody" />
+                    </message>
+                    <message>
+                      <speaker value="ASSISTANT" />
+                      <text value="Hello! I'm Cody, an AI assistant created by Sourcegraph to help with coding and technical tasks. How can I assist you today?" />
+                    </message>
+                    <message>
+                      <speaker value="HUMAN" />
+                      <text value="make code that searches F:\osu!2\Songs path folders and finds .jpg files and removes them. there should be print of in what folders are jpg deleted and progress bar of completion" />
+                    </message>
+                    <message>
+                      <speaker value="ASSISTANT" />
+                      <text value="&lt;html&gt;&lt;b&gt;You've used up your chat and commands for the month:&lt;/b&gt; You've used all chat messages and commands for the month. Upgrade to Cody Pro for unlimited autocompletes, chats, and commands. &lt;a href=&quot;https://sourcegraph.com/cody/subscription&quot;&gt;Upgrade&lt;/a&gt; or &lt;a href=&quot;https://sourcegraph.com/cody/subscription&quot;&gt;learn more&lt;/a&gt;.&lt;br&gt;&lt;br&gt;(Already upgraded to Pro? Restart your IDE for changes to take effect)&lt;/html&gt;" />
+                    </message>
+                  </list>
+                </messages>
+                <updatedAt value="2024-06-23T03:38:29.1394768" />
+              </chat>
+              <chat>
+                <internalId value="79fbb1d5-4d18-4916-98b3-6d0b23c12b52" />
+                <llm>
+                  <llm>
+                    <model value="anthropic/claude-3-sonnet-20240229" />
+                    <provider value="Anthropic" />
+                    <title value="Claude 3 Sonnet" />
+                  </llm>
+                </llm>
+              </chat>
+              <chat>
+                <internalId value="21209629-8451-47a2-b52b-e92e284f8d88" />
+                <llm>
+                  <llm>
+                    <model value="anthropic/claude-3-sonnet-20240229" />
+                    <provider value="Anthropic" />
+                    <title value="Claude 3 Sonnet" />
+                  </llm>
+                </llm>
+                <messages>
+                  <list>
+                    <message>
+                      <speaker value="HUMAN" />
+                      <text value="write simple hello world script that prints out hello works" />
+                    </message>
+                    <message>
+                      <speaker value="ASSISTANT" />
+                    </message>
+                  </list>
+                </messages>
+                <updatedAt value="2024-06-23T20:54:47.0371381" />
+              </chat>
+              <chat>
+                <internalId value="d1cf607d-3e80-4477-b8b9-f3a92b984c95" />
+                <llm>
+                  <llm>
+                    <model value="anthropic/claude-3-sonnet-20240229" />
+                    <provider value="Anthropic" />
+                    <title value="Claude 3 Sonnet" />
+                  </llm>
+                </llm>
+              </chat>
+              <chat>
+                <internalId value="d71e6239-6ff8-43c7-911d-aa8577cfbb3c" />
+                <llm>
+                  <llm>
+                    <model value="anthropic/claude-3-sonnet-20240229" />
+                    <provider value="Anthropic" />
+                    <title value="Claude 3 Sonnet" />
+                  </llm>
+                </llm>
+              </chat>
+            </list>
+          </chats>
+          <defaultLlm>
+            <llm>
+              <model value="anthropic/claude-3-sonnet-20240229" />
+              <provider value="Anthropic" />
+              <title value="Claude 3 Sonnet" />
+            </llm>
+          </defaultLlm>
+        </AccountData>
+      </list>
+    </accountData>
+  </component>
+</project>
